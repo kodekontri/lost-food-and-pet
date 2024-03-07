@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lost and Found Pets</title>
+  </head>
+  <body>
+    <h1>Find Your Lost Pet</h1>
+    <p>
+      This platform helps owner to find their lost pet in thier local
+      environment
+    </p>
+    <a href="resource.html">Check out our pet resource</a>
+    <hr />
+
+    <section>
+      <h2>Upload a Found Pet</h2>
+
+      <form>
+        <label for="pet-type">Select the Pet Type:</label>
+        <select id="pet-type">
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+          <option value="monkey">Monkey</option>
+        </select>
+
+        <br />
+        <br />
+
+        <label for="name">Name of Pet:</label>
+        <input type="text" id="name" maxlength="50" />
+
+        <br />
+        <br />
+
+        <label for="description">Describe Your Pet:</label>
+        <textarea
+          id="description"
+          cols="20"
+          rows="10"
+          maxlength="1000"
+        ></textarea>
+
+        <br />
+        <br />
+
+        <label for="location">Where did you find the pet ?</label>
+        <input type="text" id="location" />
+
+        <br />
+        <br />
+
+        <label for="phone">Phone Number</label>
+        <input type="text" id="phone" />
+
+        <br />
+        <br />
+
+        <label for="image">Upload Pet Image</label>
+        <input type="file" id="image" />
+
+        <br />
+        <br />
+
+        <button>Upload Pet</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Found Pets</h2>
+      <p>These are list of found pets</p>
+      <ul>
+        <li>
+          <img src="dog1.jpg" alt="Dog: Jimmy" width="200" />
+          <h3>Dog: Jimmy</h3>
+          <p>Rotwiler Breed, Black Color, 3ft Height</p>
+          <p>Pet was found at: Asaba</p>
+          <a href="tel:0900000000">Call</a>
+        </li>
+
+        <li>
+          <img src="dog2.webp" alt="Dog: Bingo" width="200" />
+          <h3>Dog: Bingo</h3>
+          <p>Rotwiler Breed, Black, And Orange Color, 6ft Height</p>
+          <p>Pet was found at: Warri</p>
+          <a href="tel:0901111111">Call</a>
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
